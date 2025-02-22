@@ -88,8 +88,8 @@ def watch_markdown_file(markdown_file, html_file, pdf_file):
     observer.join()
 
 if __name__ == "__main__":
-    markdown_file_path = r'C:\Users\ROKAM\THANUSH\usermanual2D\docs\index.md'  # Change this to your Markdown file path
-    html_file_path = r'C:\Users\ROKAM\THANUSH\usermanual2D\site\index.html'      # Temporary HTML file
-    pdf_file_path = r'C:\Users\ROKAM\THANUSH\usermanual2D\site\index.pdf'        # Final PDF file
+    markdown_file_path = r'C:\Users\ROKAM\THANUSH\TyreSideWallManual\docs\index.md'
+    html_file_path = r'C:\Users\ROKAM\THANUSH\TyreSideWallManual\site\index.html'
+    pdf_file_path = r'C:\Users\ROKAM\THANUSH\TyreSideWallManual\site\index.pdf'        # Final PDF file
 
     watch_markdown_file(markdown_file_path, html_file_path, pdf_file_path)
