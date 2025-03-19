@@ -21,13 +21,13 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
       primary: blue
-      accent: purple
+      accent: red 
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: blue
-      accent: lime
+      primary: dark blue
+      accent: cyan
 
 plugins:
   - search
@@ -56,7 +56,7 @@ extra:
       link: https://rokam.co
   favicon: assets/images/favicon.ico
   extra_css:
-    - assets/css/main.css  # Ensure this path is correct
+    - docs/assets/extra.css  # Ensure this path is correct
 
 copyright: |
   &copy; 2024 <a href="https://github.com/rokamtechnology" target="_blank" rel="noopener">ROKAM</a>

@@ -1,0 +1,10 @@
+[data-md-component="content"] {
+    background-color: #f0f0f0; /* Light gray background */
+    color: #333;              /* Text color */
+}
+
+/* Apply color only to a specific page by using body[data-md-page="page-name"] */
+body[data-md-page="index"] {
+    background-color: #ee2828; /* Light peach background */
+    color: #000;               /* Black text */
+}

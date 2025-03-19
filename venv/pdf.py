@@ -90,6 +90,7 @@ def watch_markdown_file(markdown_file, html_file, pdf_file):
 if __name__ == "__main__":
     markdown_file_path = r'C:\Users\ROKAM\THANUSH\TyreSideWallManual\docs\index.md'
     html_file_path = r'C:\Users\ROKAM\THANUSH\TyreSideWallManual\site\index.html'
-    pdf_file_path = r'C:\Users\ROKAM\THANUSH\TyreSideWallManual\site\index.pdf'        # Final PDF file
+    pdf_file_path = r'C:\Users\ROKAM\THANUSH\TyreSideWallManual\index.pdf'        # Final PDF file
 
     watch_markdown_file(markdown_file_path, html_file_path, pdf_file_path)
+
